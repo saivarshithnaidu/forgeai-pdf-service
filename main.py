@@ -1,4 +1,5 @@
-from fastapi import FastAPI, UploadFile, File, HttpException
+
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
 import fitz # PyMuPDF
 import io
